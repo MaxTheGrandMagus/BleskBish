@@ -1,0 +1,43 @@
+h1 ,h2, h3, h4, h5, h6, p, span {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    
+    display: block;
+}
+
+.adv-title {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.adv-divs-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    .adv-divs {
+        display: grid;
+        grid-template-rows: 1fr 1fr; 
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 100px;
+    }
+        .span-line {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .span-line::after {
+            content: '';
+            width: 75%;
+            position: absolute;
+            height: 1.5px;
+            background-color: #bdbdbd;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -10px;
+        }
+        .span-about {
+            font-size: 18px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
