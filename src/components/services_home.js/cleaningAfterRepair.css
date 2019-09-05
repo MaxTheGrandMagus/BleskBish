@@ -1,0 +1,32 @@
+.text-image-home-2{
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+  background-image: url(http://cleaningservice.kiev.ua/wp-content/uploads/2017/03/uborka_posle_stroitelstva.jpg);
+  /* box-shadow: inset 0 0 12px 8px rgba(0, 0, 0, 0.6) */
+  padding: 12%;
+  font-size: 50px;
+  color: rgb(54, 57, 93);
+  font-weight: 700;
+  border-radius: 50px;
+}
+.h2-header {
+  text-align: center;
+}
+.p-home-2 {
+  font-size: 20px;
+  color:rgb(45, 47, 53);
+  /* list-style-type: disc; */
+}
+.allTable {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  grid-gap: 20px;
+  color: #444;
+  font-size: 20px;
+}
+.h3-home-2 {
+  color: rgb(31, 44, 85);
+  font-size: 22px;
+}

@@ -1,0 +1,101 @@
+.service_header {
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 246, 246);
+    padding: 20px 70px 70px 70px;
+  }
+  /*======================================home==========================================================*/
+  .service_home {
+  padding: 20px 40px 20px 40px;
+  }
+  
+  .logo-img-home-corp {
+    border-radius: 50%;
+  }
+  
+  .p-forHome{
+    color:rgb(29, 74, 141);
+    font-weight: 900;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 0px 20px
+  }
+  
+  .p-uslug {
+    color:rgb(29, 74, 141);
+    font-weight: 200;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+  
+  .p-home-uslug {
+    text-align: center;
+    color: rgba(68, 67, 67,0.9);
+    font-size: 17px;
+  }
+  
+  .li-home-all {
+    padding: 30px 20px 20px 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .li-home-all a {
+    text-decoration: none;   /* убирает подчеркивания */
+  }
+  
+  .li-home-all :hover li {
+    color: rgb(43, 116, 109);
+    font-size: 16px;
+  }
+  
+  .li-home {
+    color: rgb(63, 152, 204);
+  }
+  /*=====================================corp=======================================================*/
+    .service_corp {
+    padding: 20px 40px 20px 40px;
+  }
+  
+  .p-corp-uslug {
+    text-align: center;
+    color: rgba(68, 67, 67,0.9);
+    font-size: 17px;
+  }
+  
+  .li-corp-all {
+    padding: 30px 20px 20px 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .li-corp-all a {
+    text-decoration: none;
+  }
+  
+  .li-corp-basic:hover{
+    color: rgb(43, 116, 109);
+    font-size: 16px;
+  }
+  
+  .li-corp-basic {
+    color: rgb(63, 152, 204);
+    font-weight: 700;
+  }
+  /*====================================================================================================*/
+  .allRoutes {
+    display: flex;
+  }
+  
+  li {
+    /* list-style-type: disc; */
+    padding: 7px 7px 7px 7px;
+  }
+  
+  .line {
+    border: 1px solid rgba(75, 70, 70,0.2);
+  }

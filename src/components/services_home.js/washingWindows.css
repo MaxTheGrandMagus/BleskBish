@@ -1,0 +1,31 @@
+.image-text-home-3{
+  background-size: 100%; /* Современные браузеры */
+  background-image: url('http://алмаз-клининг.рф/files/292/myte-okon0.jpg');
+  /* box-shadow: inset 0 0 12px 8px rgba(0, 0, 0, 0.6) */
+  padding: 13%;
+
+  font-size: 49px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-family: 'Libre Caslon Display', serif;
+  border-radius: 50px;
+}
+.h4-home {
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 19px;
+  color:rgb(60, 61, 65);
+}
+.h4-home-3 {
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 19px;
+  color: rgb(26, 26, 39)
+}
+.pp {
+  padding: 10px;
+}
+.li-allworks-home-3 {
+  font-size: 20px;
+  /* list-style-type: disc; */
+  font-family: 'Libre Caslon Display', serif;
+  color:rgb(45, 47, 53);
+}

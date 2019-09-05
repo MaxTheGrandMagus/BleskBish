@@ -1,0 +1,108 @@
+.basic-corp {
+ padding-right: 5%; 
+}
+
+.h3-corp-1 {
+  color: rgb(31, 44, 85);
+  padding: 10px 10px 10px 10px;
+  font-size: 35px;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.p-corp-1 {
+  font-size: 19px;
+  color:rgb(45, 47, 53);
+  text-align: center;
+}
+
+.p-corp-1-1 {
+  font-size: 22px;
+  color:rgb(13, 13, 14);
+  font-weight: 700;
+}
+
+.li-corp-1 {
+  font-size: 19px;
+  /* list-style-type: disc; */
+  color:rgb(45, 47, 53);
+  margin-bottom: 16px;
+}
+
+.mrg-btn {
+  margin-bottom: 40px; 
+}
+
+.li-allworks-corp-1 {
+  font-size: 20px;
+  /* list-style-type: disc; */
+  color:rgb(45, 47, 53);
+}
+
+.table-corp-1 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  grid-gap: 20px;
+  color: #444;
+  font-size: 20px;
+  padding: 20px 20px 20px 110px;
+  text-align: center;
+}
+
+.Style-office-corp {
+  display: flex;
+}
+
+.image-office{
+  padding: 15%;
+  position: relative;
+  background: transparent;
+  overflow: hidden;
+}
+
+.image-office::after{
+  content: '';
+  background-image: url('../../images/images-corp/office.jpg');
+  padding: 15%;
+  width: 100%;
+  position: absolute;
+  top: -40%;
+  left: 0;
+  background-size: 80%;
+  height: 100%;
+}
+
+.vertical-menu-6 {
+  width: 135%;
+  margin: 100px 40px 0px 40px;
+  padding-left: 20px;
+}
+
+.vertical-menu-6 a {
+  width: 100%;
+  color: black;
+  display: flex;  
+  text-decoration: none;
+}
+
+.b-table-6 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+  background-color: rgb(72, 110, 235);
+  position: relative;
+  margin-top:20px;
+  margin-left:0;
+  width: 80%;
+  color: white;
+}
+
+.b-table-6-child {
+  justify-items: center;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  font-size: 19px;
+}

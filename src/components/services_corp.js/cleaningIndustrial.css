@@ -1,0 +1,40 @@
+.basic-corp {
+  padding-right: 5%; 
+}
+
+.h3-corp-4 {
+  color: rgb(31, 44, 85);
+  padding: 10px 10px 10px 10px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.p-corp-4 {
+  font-size: 19px;
+  color:rgb(45, 47, 53);
+}
+
+.span-corp-4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.li-allworks-corp-4 {
+  font-size: 20px;
+  /* list-style-type: disc; */
+  color:rgb(45, 47, 53);
+}
+
+.allTable-corp-4 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  grid-gap: 20px;
+  color: #444;
+  font-size: 20px;
+  padding: 20px 100px 100px 100px;
+  text-align: center;
+}
+
+.exp-corp-4 {
+  text-align: initial;
+}
