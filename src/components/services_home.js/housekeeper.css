@@ -1,94 +1,73 @@
-.image-corp-6{
-  background-image: url('../../images/images-corp/office.jpg');
+.image-home-4{
+  background-image: url('../../images/images-home/housekeeper.jpg');
   width: 100%;
   height: 350px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.basic-corp-6 {
+.basic-home-4 {
   display:flex; 
 }
 
-.h3-corp-6{
+.h3-home-4{
   color: rgb(31, 44, 85);
   padding: 10px 10px 10px 10px;
   font-size: 39px;
   text-align: center;
 }
 
-.h5-corp-6 {
+.h5-home-4 {
   font-size: 20px;
 
 }
 
-.h5-corp-6 a {
+.h5-home-4 a {
   color:blue;
   font-size: 20px;
   text-decoration: none;
 }
 
-.vertical-menu-6 {
+.h5-home-4 a:hover {
+  color:gray;
+}
+
+.vertical-menu-4 {
   color:blue;
-  width: 155%;
+  width: 87%;
   margin: 100px 40px 0px 40px;
   padding-left: 10px;
 }
 
-.vertical-menu-6 a {
+.vertical-menu-4 a {
   color:#247ffb;
   display: flex;  
   text-decoration: none;
   font-size: 18px;
 }
 
-.li-corp-6{
-  margin-left:20px; 
-}
-
-.li-corp-6:hover {
+.li-home-4:hover {
   color:rgb(23, 49, 134);
 }
 
-.corp-content-6 {
+.li-home-4{
+  margin-left:20px; 
+}
+
+.home-content-4 {
   margin-left: 8px;
   margin-right: 50px;
 }
 
-.H32-corp-6 {
+.H32-home-4 {
   color:blue;
 }
- 
-.allTable-corp-6 {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(50px, 1fr));
-  grid-gap: 20px;
-  color: #444;
-  font-size: 20px;
-  padding: 10px 10px 10px 10px;
-}
 
-.a-windowCleaning {
-color: rgb(55, 196, 196)
-}
-
-.l-ho-hov-b-6:hover .li-corp-hover-6 {
-  font-size: 22px;
-  transition: 1s;
-  color: rgb(99, 100, 104); 
-  background-color: rgba(106, 127, 211, 0.2);
-}
-
-.li-corp-hover-6-0 {
-  font-size: 22px;
-  font-weight: 600
-}
-
-.H32-corp6-6 {
+.H32-home4-4 {
   color:black;
 }
 
-.b-table-6 {
+.b-table-4 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -101,7 +80,7 @@ color: rgb(55, 196, 196)
   color: white;
 }
 
-.b-table-6-child {
+.b-table-4-child {
   justify-items: center;
   padding: 30px;
   display: grid;

@@ -1,0 +1,24 @@
+.slick-slider {
+    overflow: hidden;
+}
+
+.image {
+    width: 200px;
+    height: 175px;
+    background: white;
+    
+}
+  
+.client {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:blue;
+}
+
+.slide img {
+    padding: 15px;
+}

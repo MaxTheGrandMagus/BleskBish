@@ -1,37 +1,61 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NavBar from '../nav-bar/nav';
 import './springСleaning.css'
+
+import img1 from '../../images/advantages/002-quality.png';
+import img2 from '../../images/advantages/003-eco.png';
+import img3 from '../../images/advantages/004-cost.png';
 
 export default  class SpringCleaning extends React.Component {
   render(){
     return(
       <>
-      <div className="images-text-home"></div>
-      <div className="Style-springCleaning-home">
-        <div className="vertical-menu">
-          <h2>Услуги</h2>
-          <h3>Для дома</h3>
-            <Link to="/springСleaning"><span className="li-corp">-Генеральная уборка</span></Link>
+      <NavBar />
+      <div className="image-home-1"></div>
+      <div className="basic-home-1">
+         <div class="vertical-menu-1">
+          <h2 className="H32-home3-1">Услуги</h2>
+          <h3 className="H32-home-1">Для дома</h3>
+            <Link to="/springСleaning"><span className="li-home-1">Генеральная уборка</span></Link>
             <hr></hr>
-            <Link to="/cleaningAfterRepair"><span className="li-corp">-Уборка после ремонта</span></Link>
+            <Link to="/cleaningAfterRepair"><span className="li-home-1">Уборка после ремонта</span></Link>
             <hr></hr>
-            <Link to="/washingWindows"><span className="li-corp">-Качественное мытье окон и витражей</span></Link>
+            <Link to="/washingWindows"><span className="li-home-1">Качественное мытье окон и витражей</span></Link>
             <hr></hr>
-            <Link to="/housekeeper"><span className="li-corp">-Домработница по вызову</span></Link>
+            <Link to="/housekeeper"><span className="li-home-1">Домработница по вызову</span></Link>
             <hr></hr>
-            <Link to="/sale"><span className="li-corp">-СКИДКИ</span></Link>
+            <Link to="/sale"><span className="li-home-1">СКИДКИ</span></Link>
             <hr></hr>
-           <h3>Для бизнеса</h3> 
-            <Link to="/office"><span className="li-corp">-Офисам</span></Link>
+           <h3 className="H32-home-3">Для бизнеса</h3> 
+            <Link to="/office"><span className="li-home-1">Офисам</span></Link>
             <hr></hr>
-            <Link to="/shops"><span className="li-corp">-Магазинам и торговым центрам</span></Link>
+            <Link to="/shops"><span className="li-home-1">Магазинам и торговым центрам</span></Link>
             <hr></hr>
-            <Link to="/hotel"><span className="li-corp">-Уборка отелей (гостиниц)</span></Link>
+            <Link to="/hotel"><span className="li-home-1">Уборка отелей</span></Link>
             <hr></hr>
-            <Link to="/cleaningIndustrial"><span className="li-corp">-Уборка промышленных и производственных площадей</span></Link>
+            <Link to="/cleaningIndustrial"><span className="li-home-1">Уборка промышленных и производственных площадей</span></Link>
+            <div className="b-table-1">
+              <div className="b-table-1-child">
+                <img height="100px" src={img1}></img>
+                <span font-size="20px">100%</span>
+                <span>Satisfaction</span>
+              </div>
+              <div className="b-table-1-child">
+                <img height="100px" src={img2}></img>
+                <span>Eco-Friendly</span>
+                <spna>Cleaning</spna>
+                <spna>Products</spna>
+              </div>
+              <div className="b-table-1-child">
+                <img height="100px" src={img3}></img>
+                <span>Cost</span>
+                <span>Effective</span>
+              </div>
+            </div>
         </div>
-      <div className="home-content">
-        <h5> <Link to="/">Главная страница</Link>>>Генеральная уборка</h5>
+      <div className="home-content-1">
+        {/* <h5 className="h5-home-1"> <Link to="/">Главная страница</Link>>>Генеральная уборка</h5> */}
         <h3 className="h3-home">Пугает перспектива надвигающейся генеральной уборки в квартире?</h3>
         <p className="p-home">Не стоит впадать в отчаяние: поручите это клининговой компании «БЛЕСК». Будьте уверены, уже сегодня ваш дом будет сиять идеальной чистотой, ведь профессиональный клининг – наша любимая работа.</p>
         <h3 className="h3-home">Поручите генеральную уборку квартиры нашей компании!</h3>
@@ -88,7 +112,6 @@ export default  class SpringCleaning extends React.Component {
         </ul>
         </div>
       </div>
-        <h5> <Link to="/">Главная страница</Link>>>Генеральная уборка</h5>
       </>
     )
   }

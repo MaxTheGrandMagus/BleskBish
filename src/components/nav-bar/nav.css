@@ -4,7 +4,7 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #4EA3DA;
 }
 

@@ -14,6 +14,7 @@ class Advantages extends Component {
     render() {
         return(
             <Fragment>
+                <div className="string-styles">
                 <h1 className="adv-title">Наши преимущества</h1>
 
                 <div className="adv-divs-flex">
@@ -94,6 +95,7 @@ class Advantages extends Component {
 
                     </div>
 
+                </div>
                 </div>
             </Fragment>
         );

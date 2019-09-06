@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
+import './footer.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
@@ -43,7 +44,7 @@ export default class Footer extends Component {
                     <h6 className="text-uppercase font-weight-bold">
                     <strong>Блеск</strong>
                     </h6>
-                    <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+                    <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "260px" }} />
                     <p>
                     Мы выполнили за 8 лет 1500 заказов для частных домохозяйств и бизнеса. Мы гордимся своей работой.
                     </p>
@@ -52,7 +53,7 @@ export default class Footer extends Component {
                     <h6 className="text-uppercase font-weight-bold">
                     <strong>Услуги</strong>
                     </h6>
-                    <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+                    <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "160px" }} />
                     <p>
                     <a href="#!">Для дома</a>
                     </p>
@@ -67,7 +68,7 @@ export default class Footer extends Component {
                     <h6 className="text-uppercase font-weight-bold">
                     <strong>Полезные ссылки</strong>
                     </h6>
-                    <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+                    <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "160px" }} />
                     <p>
                     <a href="#!">Контакты</a>
                     </p>
@@ -85,7 +86,7 @@ export default class Footer extends Component {
                     <h6 className="text-uppercase font-weight-bold">
                     <strong>Контакты</strong>
                     </h6>
-                    <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+                    <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "250px" }} />
                     <p>
                     <i className="fa fa-home mr-3" /> Бишкек, Байтик Баатыра 46
                     </p>

@@ -1,0 +1,8 @@
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.container {
+    max-width: 1400px;
+}

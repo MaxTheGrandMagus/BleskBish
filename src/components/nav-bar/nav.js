@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './nav.css'
 
 import Logo from '../../images/nav-bar/logo.jpg'
@@ -15,25 +16,25 @@ export default class NavBar extends Component {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Главная <span className="sr-only">(current)</span></a>
+            <a className="nav-link"> <Link to="/">Главная <span className="sr-only">(current)</span> </Link> </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Услуги</a>
+            <a className="nav-link">Услуги</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Новости</a>
+            <a className="nav-link">Новости</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Наши клиенты</a>
+            <a className="nav-link">Наши клиенты</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">О нас</a>
+            <a className="nav-link">О нас</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Контакты</a>
+            <a className="nav-link">Контакты</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Вакансии</a>
+            <a className="nav-link">Вакансии</a>
           </li>
         </ul>
       </div>

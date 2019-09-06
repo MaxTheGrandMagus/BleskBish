@@ -1,0 +1,63 @@
+.App {
+    position: relative;
+    background: url(http://да-уборка-ярославль.рф/sites/default/files/block/2018/06/mM118Bj-bBVAhSI.jpg);
+    height: 680px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .window {
+    position: absolute;
+    background: #13287e;
+    border-radius:20px; 
+    height: 470px;
+    width: 370px;
+    margin-top: 80px;
+    margin-left: 750px;
+    padding-bottom: 40px;
+  }
+  
+  .input {
+    margin-top:40px;
+    margin-left: 15px;
+    height: 10px;
+    width: 300px;
+    border-radius: 50px;
+    outline: none;
+    padding: 15px;
+    font-size: 15px;
+    border:none;
+  }
+  
+  .text {
+    height: 40px;
+    width: 310px;
+    border-radius:10px; 
+    margin-left: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    outline:none;
+    padding: 10px;
+    padding-bottom: 25px;
+    border:none;
+  }
+  
+  .button {
+    width: 330px;
+    margin-left: 15px;
+    margin-top: 10px;
+    height: 45px;
+    border-radius:20px;
+    outline:none;
+    background: white;
+    color:blue;
+    border-color:blue;
+    font-size:bolder;
+    cursor: pointer;
+    transform: 10px;
+  }
+
+  .button:hover {
+    background:#d6dadd;
+  }

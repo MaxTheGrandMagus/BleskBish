@@ -1,48 +1,70 @@
-.image-sale{
-  padding: 15%;
-  position: relative;
-  background: transparent;
-  overflow: hidden;
-}
-
-.image-sale::after{
-  content: '';
+.image-home-5{
   background-image: url('../../images/images-home/sale.jpg');
-  padding: 15%;
   width: 100%;
-  position: absolute;
-  top: -20%;
-  left: 0;
-  background-size: 80%;
-  height: 100%;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.Style-sale-home {
-  display: flex;
+.basic-home-5 {
+  display:flex; 
 }
 
-.p-home {
-  font-size: 17px;
-  color:rgb(45, 47, 53);
+.h3-home-5{
+  color: rgb(31, 44, 85);
+  padding: 10px 10px 10px 10px;
+  font-size: 39px;
+  text-align: center;
 }
 
-.p-home-5 {
-    font-size: 20px;
-    color:rgb(45, 47, 53);
-    /* list-style-type: disc; */
+.h5-home-5 {
+  font-size: 20px;
+
+}
+
+.h5-home-5 a {
+  color:blue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.h5-home-5 a:hover {
+  color:gray;
 }
 
 .vertical-menu-5 {
-  width: 21%;
+  color:blue;
+  width: 24.3%;
   margin: 100px 40px 0px 40px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .vertical-menu-5 a {
-  width: 100%;
-  color: black;
+  color:#247ffb;
   display: flex;  
   text-decoration: none;
+  font-size: 18px;
+}
+
+.li-home-5:hover {
+  color:rgb(23, 49, 134);
+}
+
+.li-home-5{
+  margin-left:20px; 
+}
+
+.home-content-5 {
+  margin-left: 8px;
+  margin-right: 50px;
+}
+
+.H32-home-5 {
+  color:blue;
+}
+
+.H32-home5-5 {
+  color:black;
 }
 
 .b-table-5 {

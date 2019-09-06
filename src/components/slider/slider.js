@@ -6,6 +6,8 @@ import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDB
 // import "bootstrap-css-only/css/bootstrap.min.css";
 // import "mdbreact/dist/css/mdb.css";
 
+import './slider.css'
+
 import Slide1 from '../../images/slider/slide1.jpg'
 import Slide2 from '../../images/slider/slide2.jpg'
 import Slide3 from '../../images/slider/slide3.jpg'
@@ -32,10 +34,10 @@ class ImageSlider extends Component {
                     src={Slide1}
                     alt="First slide"
                   />
-                <MDBMask overlay="black-light" />
+                <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">Light mask</h3>
+                  <h3 className="h3-responsive">Первый слайд</h3>
                   <p>First text</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
@@ -47,10 +49,10 @@ class ImageSlider extends Component {
                     src={Slide2}
                     alt="Second slide"
                   />
-                <MDBMask overlay="black-strong" />
+                <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">Strong mask</h3>
+                  <h3 className="h3-responsive">Второй слайд</h3>
                   <p>Second text</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
@@ -65,7 +67,7 @@ class ImageSlider extends Component {
                 <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">Slight Mast</h3>
+                  <h3 className="h3-responsive">Третий слайд</h3>
                   <p>Third text</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
@@ -81,7 +83,7 @@ class ImageSlider extends Component {
                 <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">Slight Mast</h3>
+                  <h3 className="h3-responsive">Четвертый слайд</h3>
                   <p>Fourth text</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>

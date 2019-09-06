@@ -1,40 +1,86 @@
-.basic-corp {
-  padding-right: 5%; 
+.image-corp-9{
+  background-image: url(https://cleanmakers.ru/wp-content/uploads/2018/11/04eee89e7411c8c126f9900d23438884feb10982.jpg);
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.h3-corp-4 {
+.basic-corp-9 {
+  display:flex; 
+}
+
+.h3-corp-9{
   color: rgb(31, 44, 85);
   padding: 10px 10px 10px 10px;
-  font-size: 35px;
+  font-size: 39px;
   text-align: center;
 }
 
-.p-corp-4 {
-  font-size: 19px;
-  color:rgb(45, 47, 53);
-}
-
-.span-corp-4 {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-.li-allworks-corp-4 {
+.h5-corp-9 {
   font-size: 20px;
-  /* list-style-type: disc; */
-  color:rgb(45, 47, 53);
+
 }
 
-.allTable-corp-4 {
+.h5-corp-9 a {
+  color:blue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.h5-corp-9 a:hover {
+  color:gray;
+}
+
+.vertical-menu-9 {
+  color:blue;
+  width: 86%;
+  margin: 100px 40px 0px 40px;
+  padding-left: 10px;
+}
+
+.vertical-menu-9 a {
+  color:#247ffb;
+  display: flex;  
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.li-corp-9:hover {
+  color:rgb(23, 49, 134);
+}
+
+.li-corp-9{
+  margin-left:20px; 
+}
+
+.corp-content-9 {
+  margin-left: 8px;
+  margin-right: 50px;
+}
+
+.H32-corp-9 {
+  color:black;
+}
+
+.b-table-9 {
   display: grid;
-  grid-template-columns: repeat(3, minmax(50px, 1fr));
-  grid-gap: 20px;
-  color: #444;
-  font-size: 20px;
-  padding: 20px 100px 100px 100px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   text-align: center;
+  background-color: rgb(72, 110, 235);
+  position: relative;
+  margin-top:20px;
+  margin-left:0;
+  width: 80%;
+  color: white;
 }
 
-.exp-corp-4 {
-  text-align: initial;
+.b-table-9-child {
+  justify-items: center;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  font-size: 19px;
 }

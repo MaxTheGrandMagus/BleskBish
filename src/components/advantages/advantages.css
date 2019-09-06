@@ -1,7 +1,7 @@
-h1 ,h2, h3, h4, h5, h6, p, span {
+.string-styles h1, .string-styles h2, .string-styles h3, .string-styles h4, .string-styles h5, .string-styles h6, .string-styles p, .string-styles span {
+    display: block;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    display: block;
 }
 
 .adv-title {
@@ -9,7 +9,6 @@ h1 ,h2, h3, h4, h5, h6, p, span {
     justify-content: center;
     font-size: 50px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 

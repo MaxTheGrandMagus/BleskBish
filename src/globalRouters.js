@@ -6,7 +6,7 @@ import Service from './Services'
 import SpringСleaning from './components/services_home.js/springCleaning';
 import CleaningAfterRepair from './components/services_home.js/CleaningAfterRepair';
 import WashingWindows from './components/services_home.js/washingWinows'
-import Housekeeper from './components/services_home.js/houskeeper'
+import Housekeeper from './components/services_home.js/housekeeper'
 import Sale from './components/services_home.js/sale';
 import './components/services_home.js/springСleaning.css'
 
