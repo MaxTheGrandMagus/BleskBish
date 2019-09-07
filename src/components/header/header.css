@@ -1,0 +1,5 @@
+.header-basic {
+  display: flex;
+  background-color: tomato;
+  padding: 9%;
+}

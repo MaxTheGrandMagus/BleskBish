@@ -9,11 +9,13 @@ import NavBar from './components/nav-bar/nav';
 import Footer from './components/footer/footer';
 import InputForm from './components/form/form';
 import CustomersSlider from './components/customers/customers';
+import Header from './components/header/header';
 
 class Service extends React.Component {
   render(){
     return (
       <>
+        {/* <Header/> */}
         <NavBar />
         <ImageSlider />
         <Face />

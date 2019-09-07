@@ -9,7 +9,7 @@ class Face extends React.Component {
   render(){
     return (
       <>
-        <div className="service_header">
+        <div className="service_header" id="service_header">
           <div className="service_home">
             <center><img className="logo-img-home-corp" src={imgHome} width="70%" height="60%"></img></center>
             <div className="p-forHome">Для дома</div>

@@ -34,7 +34,7 @@ export default class CustomersSlider extends Component {
     //   rtl: false
     };
     return (
-      <div className="slide">
+      <div className="slide" id="slide">
         <h2 className="client">Наши клиенты</h2>
         <Slider {...settings}>
           <div>
