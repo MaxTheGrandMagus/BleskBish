@@ -1,9 +1,20 @@
 .image-home-3{
-  background-image: url('http://алмаз-клининг.рф/files/292/myte-okon0.jpg');
+  padding: 20%;
+  position: relative;
+  background: transparent;
+  overflow: hidden;
+}
+
+.image-home-3::after {
+  content: '';
+  background-image: url('../../images/images-home/washing-windows.jpg');
+  padding: 30%;
   width: 100%;
-  height: 350px;
+  position: absolute;
+  top: -20%;
+  left: 0;
   background-size: cover;
-  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .basic-home-3 {

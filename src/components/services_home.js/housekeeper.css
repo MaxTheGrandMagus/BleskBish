@@ -1,9 +1,20 @@
 .image-home-4{
+  padding: 20%;
+  position: relative;
+  background: transparent;
+  overflow: hidden;
+}
+
+.image-home-4::after {
+  content: '';
   background-image: url('../../images/images-home/housekeeper.jpg');
+  padding: 30%;
   width: 100%;
-  height: 350px;
+  position: absolute;
+  top: -15%;
+  left: 0;
   background-size: cover;
-  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .basic-home-4 {

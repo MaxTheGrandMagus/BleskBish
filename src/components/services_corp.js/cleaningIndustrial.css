@@ -1,9 +1,20 @@
 .image-corp-9{
-  background-image: url(https://cleanmakers.ru/wp-content/uploads/2018/11/04eee89e7411c8c126f9900d23438884feb10982.jpg);
+  padding: 20%;
+  position: relative;
+  background: transparent;
+  overflow: hidden;
+}
+
+.image-corp-9::after {
+  content: '';
+  background-image: url('../../images/images-corp/factory.jpg');
+  padding: 30%;
   width: 100%;
-  height: 350px;
+  position: absolute;
+  top: -35%;
+  left: 0;
   background-size: cover;
-  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .basic-corp-9 {
