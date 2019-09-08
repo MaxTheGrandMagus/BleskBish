@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './nav.css'
+import { Link as LinkNav} from 'react-router-dom'
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import Logo from '../../images/nav-bar/logo.jpg'
@@ -16,7 +17,7 @@ export default class NavBar extends Component {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link"> <Link to="/">Главная <span className="sr-only">(current)</span> </Link> </a>
+            <a className="nav-link"> <LinkNav to="/"> Главная <span className="sr-only">(current)</span> </LinkNav> </a>
           </li>
           <li>
           <Link
@@ -27,7 +28,30 @@ export default class NavBar extends Component {
               smooth={true}
               offset={-70}
               duration= {500}
-            >Услуги
+            >
+              <ul class="dropdown">
+              <button class="mainmenubtn">Услуги</button>
+                <li class="dropdown-child">
+                  <LinkNav to="/springСleaning"><span className="li-nav">Генеральная уборка</span></LinkNav>
+                  <LinkNav to="/cleaningAfterRepair"><span className="li-nav">Уборка после ремонта</span></LinkNav>
+                  <LinkNav to="/washingWindows"><span className="li-nav">Качественное мытье окон и витражей</span></LinkNav>
+                  <LinkNav to="/housekeeper"><span className="li-nav">Домработница по вызову</span></LinkNav>
+                  <LinkNav to="/sale"><span className="li-nav">Скидки</span></LinkNav>
+                  <LinkNav to="/office"><span className="li-nav">Офисам</span></LinkNav>
+                  <LinkNav to="/shops"><span className="li-nav">Магазинам и торговым центрам</span></LinkNav>
+                  <LinkNav to="/hotel"><span className="li-nav">Уборка отелей</span></LinkNav>
+                  <LinkNav to="/cleaningIndustrial"><span className="li-nav">Уборка промышленных и производственных площадей</span></LinkNav>
+                  {/* <a href="/springСleaning">Генеральная уборка</a>
+                  <a href="/cleaningAfterRepair">Уборка после ремонта</a>
+                  <a href="/washingWindows">Качественное мытье окон и витражей</a>
+                  <a href="/housekeeper">Домработница по вызову</a>
+                  <a href="/sale">Скидки</a>
+                  <a href="/office">Офисам</a>
+                  <a href="/shops">Магазинам и торговым центрам</a>
+                  <a href="/hotel">Уборка отелей</a>
+                  <a href="/cleaningIndustrial">Уборка промышленных и производственных площадей</a> */}
+                </li>
+              </ul>
           </Link>
           </li>
           <li className="nav-item">
@@ -42,8 +66,11 @@ export default class NavBar extends Component {
               smooth={true}
               offset={-70}
               duration= {500}
-            >Наши клиенты
+          >Наши клиенты
           </Link>
+          <LinkNav to="/"><span className="li-nav">О нас</span></LinkNav>
+          <LinkNav to="/"><span className="li-nav">Контакты</span></LinkNav>
+          <LinkNav to="/"><span className="li-nav">Вакансии</span></LinkNav>
           </li>
         </ul>
       </div>

@@ -21,3 +21,35 @@ header,
 .view {
   height: 100%;
 }
+
+.mainmenubtn {
+    display: flex;
+    justify-content: center;
+    background-color: #4EA3DA;
+    color:#D0E6F3;
+    border: none;
+    cursor: pointer;
+    margin-left: -40px;
+    margin-top:-5px;
+    font-size: 18px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    position: absolute;
+    display: none;
+    background-color: #4EA3DA;
+    width: 800%;
+    /* margin-right: 500px; */
+}
+.dropdown-child a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
