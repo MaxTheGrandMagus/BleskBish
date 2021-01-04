@@ -31,7 +31,7 @@ export default class CustomersSlider extends Component {
       slidesToScroll: 2,
       autoplay: true,
       speed: 1500,
-    //   rtl: false
+      // rtl: false
     };
     return (
       <div className="slide" id="slide">

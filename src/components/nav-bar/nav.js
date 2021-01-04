@@ -16,9 +16,11 @@ export default class NavBar extends Component {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
+          
           <li className="nav-item active">
             <a className="nav-link"> <LinkNav to="/"> Главная <span className="sr-only">(current)</span> </LinkNav> </a>
           </li>
+
           <li>
           <Link
               className="nav-link"
@@ -54,9 +56,11 @@ export default class NavBar extends Component {
               </ul>
           </Link>
           </li>
+
           <li className="nav-item">
             <a className="nav-link">Новости</a>
           </li>
+
           <li className="nav-item">
           <Link
               className="nav-link"
@@ -68,10 +72,20 @@ export default class NavBar extends Component {
               duration= {500}
           >Наши клиенты
           </Link>
-          <LinkNav to="/"><span className="li-nav">О нас</span></LinkNav>
-          <LinkNav to="/"><span className="li-nav">Контакты</span></LinkNav>
-          <LinkNav to="/"><span className="li-nav">Вакансии</span></LinkNav>
           </li>
+
+          <li className="nav-item">
+            <LinkNav to="/"><span className="nav-link">О нас</span></LinkNav>
+          </li>
+          
+          <li className="nav-item">
+            <LinkNav to="/"><span className="nav-link">Контакты</span></LinkNav>
+          </li>
+          
+          <li className="nav-item">
+            <LinkNav to="/"><span className="nav-link">Вакансии</span></LinkNav>
+          </li>
+          
         </ul>
       </div>
     </nav>
