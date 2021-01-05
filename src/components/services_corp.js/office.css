@@ -1,0 +1,51 @@
+.basic-corp {
+ padding-right: 5%; 
+}
+
+.h3-corp-1 {
+  color: rgb(31, 44, 85);
+  padding: 10px 10px 10px 10px;
+  font-size: 35px;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.p-corp-1 {
+  font-size: 19px;
+  color:rgb(45, 47, 53);
+  text-align: center;
+}
+
+.p-corp-1-1 {
+  font-size: 22px;
+  color:rgb(13, 13, 14);
+  font-weight: 700;
+}
+
+.li-corp-1 {
+  font-size: 19px;
+  list-style-type: disc;
+  color:rgb(45, 47, 53);
+  margin-bottom: 16px;
+}
+
+.mrg-btn {
+  margin-bottom: 40px; 
+}
+
+.li-allworks-corp-1 {
+  font-size: 20px;
+  list-style-type: disc;
+  color:rgb(45, 47, 53);
+}
+
+.table-corp-1 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  grid-gap: 20px;
+  color: #444;
+  font-size: 20px;
+  padding: 20px 20px 20px 110px;
+  text-align: center;
+}
+

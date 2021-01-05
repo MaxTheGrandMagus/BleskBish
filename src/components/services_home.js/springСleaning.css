@@ -1,0 +1,73 @@
+.Style-springCleaning-home {
+display: flex
+}
+
+.images-text-home {
+  background-image: url(http://simi.org.br/files/2018/Junho/faxina_1.jpg);
+  background-repeat: no-repeat;
+  padding: 16%;
+}
+
+.vertical-menu {
+  width: 50%;
+  margin: 100px 40px 0px 40px;
+  padding-left: 20px;
+}
+
+.vertical-menu a {
+  color: black;
+  display: flex;  
+  text-decoration: none;
+}
+
+.h3-home {
+  color: rgb(31, 44, 85);
+  padding: 10px 10px 10px 10px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.p-home {
+  font-size: 14px;
+  color:rgb(45, 47, 53);
+}
+
+.h4-home {
+  font-size: 19px;
+}
+
+.home-content {
+  margin-right: 80px;
+}
+
+.allTable {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  grid-gap: 20px;
+  color: #444;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.a-windowCleaning {
+color: rgb(55, 196, 196)
+}
+
+.l-ho-hov-b-1:hover .li-home-hover-1 {
+  font-size: 22px;
+  transition: 1s;
+  color: rgb(99, 100, 104); 
+  background-color: rgba(108, 127, 211, 0.2);
+}
+
+.li-home-hover-1-0 {
+  font-size: 22px;
+  font-weight: 800
+}
+
+
+
+
+
+
+

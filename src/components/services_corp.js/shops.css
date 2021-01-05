@@ -1,0 +1,36 @@
+.basic-corp {
+  padding-right: 5%; 
+}
+
+.h3-corp-2{
+  color: rgb(31, 44, 85);
+  padding: 10px 10px 10px 10px;
+  font-size: 39px;
+  text-align: center;
+}
+
+.p-corp-2 {
+  font-size: 19px;
+  color:rgb(45, 47, 53);
+}
+
+.span-corp-2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.li-corp-2 {
+  font-size: 18px;
+  color: rgb(64, 68, 83);
+  list-style-type: disc;
+}
+
+.allTable-corp-2 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  grid-gap: 20px;
+  color: #444;
+  font-size: 20px;
+  padding: 20px 100px 100px 100px;
+  text-align: center;
+}

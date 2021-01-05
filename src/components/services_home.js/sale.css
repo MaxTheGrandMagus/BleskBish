@@ -1,0 +1,16 @@
+.image-home{
+  background-image: url(https://maxplayers.net/files/news_imgs/1523736668.jpg);
+  padding: 20%;
+  color: rgb(54, 57, 93);
+  border-radius: 50px;
+}
+
+.p-home {
+  font-size: 17px;
+  color:rgb(45, 47, 53);
+}
+.p-home-5 {
+    font-size: 20px;
+    color:rgb(45, 47, 53);
+    list-style-type: disc;
+}
